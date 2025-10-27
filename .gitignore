@@ -1,0 +1,29 @@
+# 数据目录
+seafile/seafile-data/
+seafile/seafile-mysql/
+seafile/seafile-caddy/
+seafile/seadoc-data/
+seafile/notification-data/
+
+Docker-DocumentServer/data/
+Docker-DocumentServer/log/
+Docker-DocumentServer/cache/
+Docker-DocumentServer/fonts/
+Docker-DocumentServer/example/
+Docker-DocumentServer/config/
+
+nginx/logs/
+nginx/ssl/
+
+# 敏感文件
+**/.env
+**/wopi_private.key
+
+# 数据库文件
+**/*.frm
+**/*.ibd
+**/*.myd
+**/*.myi
+
+# 日志文件
+**/*.log
